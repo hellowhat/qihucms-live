@@ -1,0 +1,29 @@
+{
+    "name": "qihucms/live",
+    "description": "live for qihucms.",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "zhwcom",
+            "email": "383567226@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.5",
+        "tencentcloud/tencentcloud-sdk-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qihucms\\Live\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qihucms\\Live\\QihuLiveServiceProvider"
+            ]
+        }
+    }
+}
